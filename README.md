@@ -72,7 +72,7 @@ python3 script.py <lnk_name> <decoy_url> <file1> <file2> ...
 ### Example
 
 ```bash
-python script.py example.lnk "https://example.com" file1.txt file2.exe
+python lnksmuggler.py example.lnk "https://example.com" file1.txt file2.exe
 ```
 
 
