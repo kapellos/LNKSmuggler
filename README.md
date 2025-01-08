@@ -60,7 +60,7 @@ This project automates the creation of ZIP files containing a Windows shortcut (
 Run the script with the following command:
 
 ```bash
-python3 script.py <lnk_name> <decoy_url> <file1> <file2> ...
+python3 lnksmuggler.py <lnk_name> <decoy_url> <file1> <file2> ...
 ```
 
 ### Arguments
@@ -72,7 +72,7 @@ python3 script.py <lnk_name> <decoy_url> <file1> <file2> ...
 ### Example
 
 ```bash
-python lnksmuggler.py example.lnk "https://example.com" file1.txt file2.exe
+python3 lnksmuggler.py example.lnk "https://example.com" file1.exe file2.dll
 ```
 
 
