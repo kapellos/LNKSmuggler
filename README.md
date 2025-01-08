@@ -2,7 +2,7 @@
 
 ![image](https://github.com/kapellos/LNKSmuggler/blob/main/LNKsmuggler.png)
 
-A Python script for creating `.lnk` (shortcut) files with embedded encoded data and packaging them into ZIP archives. The resulting LNK file extracts the embedded files and executes the first file provided (so it can be used with AppDomainManager technique) effectivelly bypassing MOTW and the download of files over the Internet. Before the embedded file is executed the LNK opens up a Decoy URL for the user. Idea originated from Balliskit author @EmericNasi(https://github.com/sevagas/Advanced_Initial_access_in_2024_OffensiveX/blob/main/breach_the_gates_extended.pdf)
+A Python script for creating `.lnk` (shortcut) files with embedded encoded data and packaging them into ZIP archives. The resulting LNK file extracts the embedded files and executes the first file provided (so it can be used with AppDomainManager technique) effectively bypassing MOTW and the download of files over the Internet. Before the embedded file is executed the LNK opens up a Decoy URL for the user. Idea originated from Balliskit author @EmericNasi (https://github.com/sevagas/Advanced_Initial_access_in_2024_OffensiveX/blob/main/breach_the_gates_extended.pdf)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ A Python script for creating `.lnk` (shortcut) files with embedded encoded data 
 
 ## About the Project
 
-This project automates the creation of Windows shortcut (`.lnk`) files containing embedded data and custom commands. It is designed to be used as a ZIP archive to downloaded in a Phishing Campaign.
+This project automates the creation of ZIP files containing a Windows shortcut (`.lnk`) file with embedded arbitrary files, which are extracted and executed when a user runs the resulting .lnk file. It is designed to be used as a ZIP archive to be downloaded in a Phishing Campaign.
 
 ### Built With
 
@@ -31,7 +31,7 @@ This project automates the creation of Windows shortcut (`.lnk`) files containin
 ## Features
 
 - Create `.lnk` shortcut files with:
-  - Obfuscated commands.
+  - Obfuscated cmd commands.
   - Embedded Base64-encoded tarball data.
 - Extract and append data to shortcuts at runtime.
 - Package the generated shortcuts into ZIP archives.
@@ -43,8 +43,8 @@ This project automates the creation of Windows shortcut (`.lnk`) files containin
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/kapellos/lnksmuggler.git
-    cd lnksmuggler
+    git clone https://github.com/kapellos/LNKSmuggler.git
+    cd LNKSmuggler
     ```
 
 2. Install dependencies:
