@@ -1,6 +1,6 @@
-# Project Title
+# LNK Smuggler
 
-![Project Screenshot](https://github.com/kapellos/lnksmuggler/LNKsmuggler.png)
+![image](https://github.com/kapellos/LNKSmuggler/blob/main/LNKsmuggler.png)
 
 A Python script for creating `.lnk` (shortcut) files with embedded encoded data and packaging them into ZIP archives. The resulting LNK file extracts the embedded files and executes the first file provided (so it can be used with AppDomainManager technique) effectivelly bypassing MOTW and the download of files over the Internet. Before the embedded file is executed the LNK opens up a Decoy URL for the user. Idea originated from Balliskit author @EmericNasi(https://github.com/sevagas/Advanced_Initial_access_in_2024_OffensiveX/blob/main/breach_the_gates_extended.pdf)
 
