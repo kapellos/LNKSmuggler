@@ -1,0 +1,2 @@
+pywin32==308
+pyfiglet
